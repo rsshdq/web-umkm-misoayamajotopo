@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halaman Tidak Ditemukan — Miso Ayam Berkah</title>
+  <meta name="description" content="Halaman yang Anda cari tidak ditemukan. Kembali ke beranda Miso Ayam Berkah." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* page-specific overrides for the 404 page */
+    body.error-body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background:
+        linear-gradient(rgba(28,16,10,0.74), rgba(28,16,10,0.82)),
+        url('https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8a947e6f6534.jpg') center/cover no-repeat;
+      color: #FFF8EE;
+      font-family: var(--sans);
+    }
+    .error-nav {
+      padding: 22px 0;
+    }
+    .error-main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .error-inner { max-width: 640px; }
+    .error-eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #F5C97A;
+      margin: 0 0 18px 0;
+      font-weight: 500;
+    }
+    .error-code {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-size: clamp(6rem, 22vw, 12rem);
+      line-height: 1;
+      margin: 0 0 8px 0;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #F5C97A 0%, #E07A4E 50%, #B23A2E 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 8px 30px rgba(178, 58, 46, 0.25);
+    }
+    .error-title {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      margin: 0 0 18px 0;
+      color: #FFF8EE;
+    }
+    .error-title em { color: #F5C97A; font-style: italic; }
+    .error-desc {
+      font-size: 1.0rem;
+      color: rgba(255, 248, 238, 0.82);
+      font-weight: 300;
+      line-height: 1.75;
+      margin: 0 0 36px 0;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .error-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .error-actions .btn-primary {
+      background: linear-gradient(135deg, var(--gold), var(--red));
+    }
+    .error-actions .btn-ghost {
+      background: transparent;
+      color: #FFF8EE;
+      border-color: rgba(255, 248, 238, 0.5);
+    }
+    .error-footer {
+      padding: 24px 0;
+      text-align: center;
+      font-size: 0.82rem;
+      color: rgba(255, 248, 238, 0.55);
+      font-weight: 300;
+      border-top: 1px solid rgba(245, 201, 122, 0.15);
+    }
+    /* hide navbar that requires fixed positioning for the 404 layout */
+    .navbar { position: relative; background: transparent; }
+    .navbar .nav-links a { color: rgba(255, 248, 238, 0.85); }
+    .navbar .nav-links a:hover { color: #FFF8EE; }
+    .navbar .brand { color: #FFF8EE; }
+    .navbar .brand-text em { color: #F5C97A; }
+    .nav-toggle { border-color: rgba(255, 248, 238, 0.4); }
+    .nav-toggle span { background: #FFF8EE; }
+    @media (max-width: 720px) {
+      .navbar.scrolled {
+        background: rgba(28, 16, 10, 0.95);
+        backdrop-filter: blur(10px);
+      }
+      .nav-links {
+        background: rgba(28, 16, 10, 0.97);
+      }
+      .nav-links a { color: rgba(255, 248, 238, 0.88); }
+    }
+  </style>
+</head>
+<body class="error-body">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">M</span>
+        <span class="brand-text">Miso Ayam <em>Berkah</em></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="index.html#beranda">Beranda</a>
+        <a href="index.html#tentang">Tentang Kami</a>
+        <a href="index.html#menu">Menu</a>
+        <a href="index.html#kontak">Kontak</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== ERROR CONTENT ===================== -->
+  <main class="error-main">
+    <div class="error-inner">
+      <p class="error-eyebrow">Halaman Tidak Ditemukan</p>
+      <div class="error-code">404</div>
+      <h1 class="error-title">Waduh, mangkuknya <em>kosong</em>!</h1>
+      <p class="error-desc">
+        Halaman yang Anda cari mungkin sudah kami pindahkan atau tidak tersedia. Tapi jangan khawatir —
+        warung kami tetap buka dan miso ayam-nya masih mengepul hangat di beranda.
+      </p>
+      <div class="error-actions">
+        <a href="index.html" class="btn btn-primary">Kembali ke Beranda</a>
+        <a href="index.html#menu" class="btn btn-ghost">Lihat Menu</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="error-footer">
+    <div class="container">
+      <p>&copy; 2026 Miso Ayam Berkah. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle (same as index)
+    var navToggle = document.getElementById('navToggle');
+    var navLinks = document.querySelector('.nav-links');
+    navToggle.addEventListener('click', function () {
+      var isOpen = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      navToggle.classList.toggle('active', isOpen);
+    });
+  </script>
+</body>
+</html>
 

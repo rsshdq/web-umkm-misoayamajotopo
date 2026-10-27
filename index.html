@@ -1,3 +1,222 @@
-<html> 
-  ini halaman index
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miso Ayam Berkah — Sajian Miso Ayam Khas Nusantara</title>
+  <meta name="description" content="Miso Ayam Berkah adalah UMKM kuliner yang menyajikan miso ayam autentik dengan kuah kaldu ayam gurih, mi miso halus, dan bumbu rempah pilihan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="brand">
+        <span class="brand-mark">M</span>
+        <span class="brand-text">Miso Ayam <em>Berkah</em></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="beranda" style="background-image: linear-gradient(rgba(28,16,10,0.62), rgba(28,16,10,0.72)), url('https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a03c09fd977d.jpg');">
+    <div class="container hero-inner">
+      <p class="hero-eyebrow">UMKM Kuliner Nusantara &middot; Sejak 2018</p>
+      <h1 class="hero-title">Sajian Miso Ayam <span>2026</span></h1>
+      <p class="hero-subtitle">Sentuhan Rumahtangga untuk Cita Rasa yang Memikat</p>
+      <p class="hero-desc">
+        Nikmati semangkuk miso ayam dengan mi miso lembut, kaldu ayam yang dimasak perlahan selama berjam-jam,
+        taburan bawang goreng renyah, dan kesegaran daun bawang yang hangat di setiap suapan.
+      </p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+        <a href="#tentang" class="btn btn-ghost">Tentang Kami</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
+      <p>Gulir ke bawah</p>
+    </div>
+  </section>
+
+  <!-- ===================== TENTANG ===================== -->
+  <section class="section about" id="tentang">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8a947e6f6534.jpg" alt="Semangkuk miso ayam dengan suwiran ayam dan bawang goreng" loading="lazy" />
+        <div class="about-image-badge">
+          <strong>4+</strong>
+          <span>tahun meracik resep</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow">Tentang Kami</p>
+        <h2 class="section-title">Cerita di Balik <em>Miso Ayam Berkah</em></h2>
+        <p>
+          Miso Ayam Berkah adalah usaha mikro kuliner yang lahir dari dapur rumah sederhana di pinggiran kota.
+          Berawal dari resep keluarga turun-temurun, kami menghadirkan miso ayam dengan sentuhan bumbu rempah
+          Nusantara yang autentik. Setiap mangkuk yang kami sajikan merupakan perpaduan harmonis antara mi miso
+          yang lembut, kaldu ayam bening yang gurih, serta taburan bawang goreng yang renyah.
+        </p>
+        <p>
+          Kami percaya bahwa setiap porsi makanan memiliki cerita. Oleh karena itu, kami berkomitmen untuk
+          menggunakan bahan-bahan segar pilihan, memasak kaldu dengan kesabaran, dan menyajikan setiap
+          mangkuk seolah-olah kami menyajikannya untuk keluarga sendiri. Rasanya yang hangat dan familiar
+          menjadikan miso ayam kami sebagai teman setia untuk sarapan, makan siang, maupun makan malam.
+        </p>
+        <ul class="about-features">
+          <li><span class="dot"></span> Kaldu ayam dimasak rendah api selama 6 jam</li>
+          <li><span class="dot"></span> Bumbu rempah pilihan dari petani lokal</li>
+          <li><span class="dot"></span> Tanpa penyedap buatan, 100% halal</li>
+          <li><span class="dot"></span> Mi miso kualitas premium, lembut di mulut</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MENU ===================== -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Menu Unggulan</p>
+        <h2 class="section-title">Pilihan Miso Ayam <em>Kami</em></h2>
+        <p class="section-desc">
+          Tiga varian miso ayam paling diminati, masing-masing dengan karakter rasa yang berbeda namun
+          tetap mempertahankan kegurihan kaldu ayam khas Miso Ayam Berkah.
+        </p>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card">
+          <div class="menu-image">
+            <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/00d479710222.jpg" alt="Mangkuk miso ayam dengan jeruk nipis, daun ketumbar, dan bawang goreng" loading="lazy" />
+            <span class="menu-tag">Favorit</span>
+          </div>
+          <div class="menu-body">
+            <h3 class="menu-name">Miso Ayam Klasik</h3>
+            <p class="menu-desc">
+              Mi miso lembut dengan suwiran ayam, taburan bawang goreng renyah, daun bawang segar,
+              dan kuah kaldu ayam bening yang gurih. Disajikan dengan jeruk nipis dan sambal dadakan.
+            </p>
+            <div class="menu-foot">
+              <span class="menu-price">Rp 18.000</span>
+              <a href="https://wa.me/6281234567890?text=Halo%20Miso%20Ayam%20Berkah%2C%20saya%20mau%20pesan%20Miso%20Ayam%20Klasik" target="_blank" rel="noopener" class="btn btn-order">Pesan via WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-image">
+            <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c951dd7e91bf.jpg" alt="Mangkuk sup miso ayam kremi dengan wortel dan seledri" loading="lazy" />
+            <span class="menu-tag">Spesial</span>
+          </div>
+          <div class="menu-body">
+            <h3 class="menu-name">Miso Ayam Spesial</h3>
+            <p class="menu-desc">
+              Versi premium dengan telur rebus setengah matang, ayam suwir ekstra, dan sayuran segar
+              seperti wortel serta kol. Dilengkapi emping dan kerupuk sebagai pelengkap khas Nusantara.
+            </p>
+            <div class="menu-foot">
+              <span class="menu-price">Rp 25.000</span>
+              <a href="https://wa.me/6281234567890?text=Halo%20Miso%20Ayam%20Berkah%2C%20saya%20mau%20pesan%20Miso%20Ayam%20Spesial" target="_blank" rel="noopener" class="btn btn-order">Pesan via WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-image">
+            <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4e726dda8ee8.jpg" alt="Empat mangkuk miso ayam dengan telur rebus, kentang, dan daun bawang" loading="lazy" />
+            <span class="menu-tag">Paket Keluarga</span>
+          </div>
+          <div class="menu-body">
+            <h3 class="menu-name">Miso Ayam Premium</h3>
+            <p class="menu-desc">
+              Paket istimewa untuk 2-4 orang, terdiri atas porsi jumbo dengan kentang rebus, telur
+              rebus, ayam suwir melimpah, dan sambal spesial. Cocok untuk santap keluarga di akhir pekan.
+            </p>
+            <div class="menu-foot">
+              <span class="menu-price">Rp 55.000</span>
+              <a href="https://wa.me/6281234567890?text=Halo%20Miso%20Ayam%20Berkah%2C%20saya%20mau%20pesan%20Miso%20Ayam%20Premium" target="_blank" rel="noopener" class="btn btn-order">Pesan via WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK / FOOTER ===================== -->
+  <footer class="footer" id="kontak">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Miso Ayam <em>Berkah</em></h3>
+        <p>
+          Warung miso ayam rumahan dengan kaldu gurih dan mi miso lembut. Setiap mangkuk adalah cerita
+          tentang keluarga, kehangatan, dan rasa yang otentik.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Alamat</h4>
+        <p>Jl. Melati Raya No. 17, Kelurahan Sukamaju, Bandung, Jawa Barat 40123, Indonesia</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hubungi Kami</h4>
+        <p>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">+62 812-3456-7890</a></p>
+        <p>Instagram: <a href="https://instagram.com/misoayam.berkah" target="_blank" rel="noopener">@misoayam.berkah</a></p>
+        <p>Buka: Senin–Minggu, 08.00–21.00 WIB</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Miso Ayam Berkah. Hak Cipta Dilindungi.</p>
+      <p>Dibuat dengan rasa untuk pecinta kuliner Nusantara.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    var navToggle = document.getElementById('navToggle');
+    var navLinks = document.querySelector('.nav-links');
+    navToggle.addEventListener('click', function () {
+      var isOpen = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      navToggle.classList.toggle('active', isOpen);
+    });
+
+    // Navbar shadow on scroll
+    var navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 30) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Close mobile menu when link is clicked
+    document.querySelectorAll('.nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
 </html>
